@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Тепло — русская кухня и завтраки весь день · Уфа, Карла Маркса 20</title>
+<meta name="description" content="Кофейня «Тепло» в Александровском пассаже, Уфа. Завтраки с 8:00 до 22:00, авторские рафы, русская кухня.">
+<meta name="theme-color" content="#8e1219">
+<script>
+  // Если страница открыта не с сервера (превью/файл без папки img), берём те же фото из карточки 2ГИС
+  window.PHOTO_CDN = {
+    'hall-1':'i8/5f7f5189-b659-4d2b-af1a-c0b99896f11e', 'armchairs':'i4/1e83c9f5-94e2-473d-a529-d78079399738',
+    'lounge':'i7/a82a0542-a2f6-4b2a-a548-deec65c0cc73', 'cup':'i7/3b0699e5-30c1-4eff-94ab-b9c0d50e09c3',
+    'eclair-salmon':'i7/0556224f-2832-43cb-9847-347551a84696', 'croissant':'i2/fe0cb249-81c1-4261-b291-636f8475e6e7',
+    'omelet':'i7/bc1155a2-c681-4a6b-87ee-7e02ceda3d2f', 'bowl':'i5/45492924-065c-40f1-8efb-75c7d2a85739',
+    'eclair-beef':'i7/25865ad8-5648-453c-9f50-b9dc5a22a837', 'profiteroles':'i4/47f8bde7-f09f-4ea1-a0a3-ac73dc03f9fb',
+    'bar':'i9/63fbea88-a746-4edf-b894-a7d0eb7413de', 'breakfast-table':'i4/3fbe885b-8243-4a80-9432-d24f9ee1629c',
+    'hall-2':'i4/4ed04fc9-2171-4958-a7d6-deb40db93fac', 'hall-3':'i6/7eab69a1-45e0-46a7-b537-f2e945a8f7d7',
+    'menu-bar':'i6/8ebfdec4-a7e2-427a-836e-95650b79fd64', 'menu-main':'i6/4653e0b7-41a7-4d08-8949-112e90b5f82e',
+    'menu-breakfast':'i6/b39b73aa-f9b3-47c7-849e-1109136f2c5e'
+  };
+  window.cdnFor = function(src){
+    var m = /img\/([\w-]+)\.jpg/.exec(src || ''); if(!m || !PHOTO_CDN[m[1]]) return null;
+    var p = PHOTO_CDN[m[1]].split('/'); return 'https://' + p[0] + '.photo.2gis.com/photo-gallery/' + p[1] + '.jpg';
+  };
+  window.addEventListener('error', function(e){
+    var el = e.target; if(!el || el.tagName !== 'IMG' || el.dataset.fb) return;
+    var u = cdnFor(el.getAttribute('src')); if(u){ el.dataset.fb = 1; window.USE_CDN = true; el.src = u; }
+  }, true);
+</script>
+<style>
+  :root{
+    --red:#b8202a; --red-d:#8e1219; --red-dd:#4d0a0e; --rowan:#f07a2b; --gold:#ffc46b;
+    --cream:#fff6ec; --paper:#fffaf5; --ink:#2a1513; --muted:#7d6259; --line:#f0dccb; --r:20px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:64px}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.5;font-size:16px;padding-bottom:90px;-webkit-tap-highlight-color:transparent}
+  a{color:inherit}
+  img{display:block;max-width:100%}
+  button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+  .serif{font-family:Georgia,"Times New Roman",serif}
+  h2{font-family:Georgia,"Times New Roman",serif;font-size:32px;line-height:1.1;margin-bottom:6px}
+  .sub{color:var(--muted);margin-bottom:22px}
+  section{padding:52px 0}
+  .eyebrow{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:8px}
+
+  .demo{background:var(--red-dd);color:#ffd9c7;font-size:12px;text-align:center;padding:7px 14px}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:20;background:rgba(255,246,236,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:6px;height:56px;overflow-x:auto;scrollbar-width:none}
+  nav .wrap::-webkit-scrollbar{display:none}
+  .logo{font-family:Georgia,serif;font-weight:700;font-size:22px;color:var(--red);text-decoration:none;margin-right:8px;white-space:nowrap}
+  nav a.l{white-space:nowrap;text-decoration:none;font-weight:600;font-size:15px;padding:8px 12px;border-radius:99px}
+  nav a.l:hover{background:#fbe3d3}
+  nav .nav-call{margin-left:auto;background:var(--red);color:#fff;white-space:nowrap;text-decoration:none;font-weight:700;padding:9px 16px;border-radius:99px;font-size:15px}
+
+  /* hero */
+  .hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:var(--red-dd)}
+  .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%;animation:zoom 18s ease-out both}
+  @keyframes zoom{from{transform:scale(1.12)}to{transform:scale(1)}}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(40,5,8,.05) 0%,rgba(40,5,8,.25) 40%,rgba(60,6,10,.92) 100%)}
+  .hero .wrap{position:relative;z-index:1;padding-bottom:44px;width:100%}
+  .badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.18);backdrop-filter:blur(6px);border-radius:99px;padding:7px 14px;font-size:14px;font-weight:700}
+  .dot{width:9px;height:9px;border-radius:50%;background:#7ef09a;box-shadow:0 0 0 0 rgba(126,240,154,.7);animation:pulse 2s infinite}
+  .dot.closed{background:#ffad98;animation:none}
+  @keyframes pulse{70%{box-shadow:0 0 0 9px rgba(126,240,154,0)}100%{box-shadow:0 0 0 0 rgba(126,240,154,0)}}
+  .hero h1{font-family:Georgia,serif;font-size:76px;line-height:.95;margin:16px 0 8px;letter-spacing:-.02em}
+  .hero .kicker{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:800}
+  .hero .lead{font-size:19px;max-width:540px;opacity:.95}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 22px;border-radius:16px;font-weight:800;text-decoration:none;font-size:16px;transition:transform .15s,box-shadow .15s}
+  .btn:active{transform:scale(.97)}
+  .btn-red{background:var(--red);color:#fff;box-shadow:0 8px 24px rgba(184,32,42,.4)}
+  .btn-red:hover{box-shadow:0 12px 30px rgba(184,32,42,.55);transform:translateY(-2px)}
+  .btn-light{background:#fff;color:var(--red-d)}
+  .btn-glass{background:rgba(255,255,255,.16);color:#fff;border:1.5px solid rgba(255,255,255,.55);backdrop-filter:blur(6px)}
+
+  /* ratings */
+  .ratings{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:-34px;position:relative;z-index:2}
+  .rate{display:block;background:#fff;border-radius:var(--r);padding:16px;text-decoration:none;box-shadow:0 10px 30px rgba(77,10,14,.12);border:1px solid var(--line);transition:transform .15s}
+  .rate:hover{transform:translateY(-3px)}
+  .rate .src{display:flex;align-items:center;gap:8px;font-weight:800;font-size:14px}
+  .rate .ico{width:26px;height:26px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:900}
+  .rate .num{font-family:Georgia,serif;font-size:38px;font-weight:700;line-height:1.1;margin-top:8px}
+  .rate .stars{color:#ffb000;letter-spacing:1px}
+  .rate .cnt{color:var(--muted);font-size:13px}
+  .rate .go{color:var(--red);font-weight:700;font-size:13px;margin-top:6px}
+
+  /* promo */
+  .promo{margin-top:22px;background:linear-gradient(110deg,var(--rowan),var(--red) 60%);color:#fff;border-radius:var(--r);padding:18px 20px;display:flex;align-items:center;gap:14px;text-decoration:none}
+  .promo b{font-family:Georgia,serif;font-size:34px;line-height:1}
+  .promo span{font-size:15px;line-height:1.35}
+
+  /* dishes */
+  .dishes{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .dish{background:#fff;border-radius:var(--r);overflow:hidden;text-align:left;border:1px solid var(--line);transition:transform .2s,box-shadow .2s}
+  .dish:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(77,10,14,.14)}
+  .dish .ph{aspect-ratio:1;overflow:hidden}
+  .dish img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+  .dish:hover img{transform:scale(1.06)}
+  .dish .t{padding:12px 14px 14px}
+  .dish .n{font-weight:700;font-size:15px;line-height:1.3}
+  .dish .p{color:var(--red);font-weight:800;margin-top:4px}
+  .hit{position:absolute;margin:10px;background:var(--red);color:#fff;font-size:11px;font-weight:800;padding:4px 9px;border-radius:99px;letter-spacing:.05em}
+
+  /* menu */
+  .menu-box{background:#fff;border-radius:26px;border:1px solid var(--line);overflow:hidden}
+  .tabs{display:flex;gap:6px;overflow-x:auto;padding:14px;border-bottom:1px solid var(--line);scrollbar-width:none;background:var(--paper)}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{white-space:nowrap;padding:10px 16px;border-radius:99px;font-weight:700;font-size:15px;background:#fbe9dc;color:var(--red-d);transition:background .15s}
+  .tab.on{background:var(--red);color:#fff}
+  .panel{display:none;padding:8px 18px 18px}
+  .panel.on{display:block;animation:fade .3s}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .item{display:flex;gap:12px;align-items:baseline;padding:13px 0;border-bottom:1px dashed var(--line)}
+  .item:last-child{border-bottom:0}
+  .item .n{flex:1;font-weight:600}
+  .item .n small{display:block;font-weight:400;color:var(--muted);font-size:14px}
+  .item .p{font-weight:800;color:var(--red);white-space:nowrap}
+  .tagr{display:inline-block;background:#ffe7d4;color:var(--red);font-size:11px;font-weight:800;padding:2px 7px;border-radius:6px;margin-left:6px;vertical-align:2px}
+  .menu-h{font-family:Georgia,serif;font-size:21px;color:var(--red-d);margin:18px 0 2px}
+  .menu-foot{display:flex;flex-wrap:wrap;gap:10px;padding:16px 18px;border-top:1px solid var(--line);background:var(--paper);align-items:center}
+  .menu-foot .note{color:var(--muted);font-size:13px;flex:1;min-width:200px}
+  .pill{display:inline-flex;align-items:center;gap:6px;padding:10px 14px;border-radius:12px;border:1.5px solid var(--red);color:var(--red);font-weight:700;font-size:14px}
+
+  /* gallery */
+  .gallery{display:grid;grid-template-columns:repeat(2,1fr);grid-auto-rows:170px;gap:10px}
+  .gallery button{border-radius:16px;overflow:hidden;position:relative}
+  .gallery button.big{grid-row:span 2}
+  .gallery img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+  .gallery button:hover img{transform:scale(1.06)}
+  .gallery .more{position:absolute;inset:0;background:rgba(77,10,14,.55);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px}
+
+  /* reviews */
+  .reviews{display:grid;gap:12px}
+  .rv{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px;display:flex;flex-direction:column;gap:10px}
+  .rv.photo{padding:0;overflow:hidden}
+  .rv.photo button{display:block;aspect-ratio:4/3;overflow:hidden}
+  .rv.photo button img{width:100%;height:100%;object-fit:cover}
+  .rv.photo .in{padding:18px;display:flex;flex-direction:column;gap:10px}
+  .rv .who{display:flex;align-items:center;gap:10px}
+  .av{width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--rowan),var(--red));color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+  .rv .who b{display:block;font-size:15px}
+  .rv .who small{color:var(--muted);font-size:12px}
+  .rv .stars{color:#ffb000;margin-left:auto;font-size:14px}
+  .rv p{font-size:15.5px}
+  .rv-cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+
+  /* features */
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:#fff;border:1px solid var(--line);border-radius:99px;padding:9px 14px;font-size:15px;font-weight:500}
+
+  /* contacts */
+  .contacts{display:grid;gap:14px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px}
+  dt{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-top:16px;font-weight:700}
+  dt:first-child{margin-top:0}
+  dd{font-size:18px;font-weight:700}
+  .map{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);min-height:320px;background:#eee}
+  .map iframe{width:100%;height:100%;min-height:320px;border:0;display:block}
+
+  .final{position:relative;border-radius:28px;overflow:hidden;color:#fff;text-align:center;padding:60px 22px;margin-bottom:40px}
+  .final img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .final::before{content:"";position:absolute;inset:0;background:rgba(77,10,14,.72);z-index:1}
+  .final > *:not(img){position:relative;z-index:2}
+  .final h2{font-size:36px}
+  .final p{opacity:.9;margin:8px 0 22px}
+
+  footer{text-align:center;color:var(--muted);font-size:12px;padding:0 20px 30px}
+
+  .fab{position:fixed;left:12px;right:12px;bottom:12px;z-index:30;display:flex;gap:8px;padding-bottom:env(safe-area-inset-bottom)}
+  .fab a{flex:1;box-shadow:0 10px 30px rgba(77,10,14,.35)}
+  .fab .sq{flex:0 0 56px;padding:15px 0;background:#fff;color:var(--red-d)}
+
+  /* lightbox */
+  .lb{position:fixed;inset:0;z-index:100;background:rgba(20,4,6,.94);display:none;flex-direction:column;align-items:center;justify-content:center}
+  .lb.on{display:flex}
+  .lb img{max-width:94vw;max-height:78vh;border-radius:12px;object-fit:contain;touch-action:pan-y}
+  .lb .cap{color:#fff;margin-top:14px;font-weight:600;text-align:center;padding:0 20px}
+  .lb .cnt{color:#ffcfb8;font-size:13px;margin-top:4px}
+  .lb .x,.lb .nav{position:absolute;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;font-size:24px;display:flex;align-items:center;justify-content:center}
+  .lb .x{top:14px;right:14px}
+  .lb .prev{left:12px;top:50%}
+  .lb .next{right:12px;top:50%}
+
+  /* call sheet + toast */
+  .sheet{position:fixed;inset:0;z-index:110;background:rgba(20,4,6,.6);display:none;align-items:center;justify-content:center;padding:18px}
+  .sheet.on{display:flex;animation:fade .2s}
+  .sheet .box{background:#fff;border-radius:24px;padding:26px 22px;max-width:380px;width:100%;text-align:center;position:relative}
+  .sheet .box h3{font-family:Georgia,serif;font-size:24px;color:var(--red-d)}
+  .sheet .big-num{display:block;font-size:28px;font-weight:800;color:var(--red);text-decoration:none;margin:10px 0 4px;letter-spacing:.01em}
+  .sheet .hint{color:var(--muted);font-size:14px;margin-bottom:18px}
+  .sheet .btn{width:100%;margin-top:8px}
+  .sheet .x2{position:absolute;top:10px;right:12px;width:36px;height:36px;border-radius:50%;background:#f6ebe2;font-size:18px}
+  .toast{position:fixed;left:50%;bottom:96px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:14px;font-weight:600;font-size:15px;opacity:0;pointer-events:none;transition:all .25s;z-index:120;white-space:nowrap}
+  .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+  nav a.l.cur{background:var(--red);color:#fff}
+  .btn:focus-visible,.tab:focus-visible,.dish:focus-visible,.gallery button:focus-visible,nav a:focus-visible{outline:3px solid var(--rowan);outline-offset:2px}
+  .btn-glass:hover{background:rgba(255,255,255,.28)}
+  .btn-light:hover{background:#fff3ea}
+  .tab:hover{background:#f7d6c2}
+  .tab.on:hover{background:var(--red)}
+
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}
+  .reveal.in{opacity:1;transform:none}
+
+  @media (min-width:760px){
+    body{padding-bottom:0}
+    .fab{display:none}
+    .hero{min-height:82vh}
+    .hero h1{font-size:120px}
+    .ratings{grid-template-columns:repeat(2,minmax(0,300px))}
+    .dishes{grid-template-columns:repeat(3,1fr)}
+    .gallery{grid-template-columns:repeat(4,1fr);grid-auto-rows:220px}
+    .reviews{grid-template-columns:repeat(3,1fr)}
+    .rv.photo{grid-row:span 2}
+    .contacts{grid-template-columns:1fr 1.4fr}
+    .panel{padding:8px 28px 22px}
+    .cols{columns:2;column-gap:36px}
+    .cols .item{break-inside:avoid}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<div class="demo">Демо-концепт, не официальный сайт. Удалим по первой просьбе.</div>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top">тепло</a>
+    <a class="l" href="#hits">Блюда</a>
+    <a class="l" href="#menu">Меню</a>
+    <a class="l" href="#interior">Интерьер</a>
+    <a class="l" href="#reviews">Отзывы</a>
+    <a class="l" href="#contacts">Контакты</a>
+    <a class="nav-call" href="tel:+79961039095">📞 Позвонить</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <img src="img/hall-2.jpg" alt="Зал кофейни «Тепло» с панно в русском стиле">
+  <div class="wrap">
+    <span class="badge"><span class="dot" id="dot"></span><span id="status">Ежедневно 08:00–22:00</span></span>
+    <h1>Тепло</h1>
+    <div class="kicker">русская кухня · кофейня</div>
+    <p class="lead" style="margin-top:10px">Завтраки с 8 утра и до закрытия, авторские рафы и уютный зал в Александровском пассаже.</p>
+    <div class="btns">
+      <a class="btn btn-red" href="tel:+79961039095">📞 Забронировать стол</a>
+      <a class="btn btn-glass" href="#menu">📖 Смотреть меню</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="ratings">
+    <a class="rate" href="https://2gis.ru/ufa/firm/70000001118655819/tab/reviews" target="_blank" rel="noopener">
+      <div class="src"><span class="ico" style="background:#19aa1e">2</span>2ГИС</div>
+      <div class="num">5,0</div>
+      <div class="stars">★★★★★</div>
+      <div class="cnt">16 оценок</div>
+      <div class="go">Читать отзывы →</div>
+    </a>
+    <a class="rate" href="https://yandex.ru/maps/org/teplo/148598548758/reviews/" target="_blank" rel="noopener">
+      <div class="src"><span class="ico" style="background:#fc3f1d">Я</span>Яндекс Карты</div>
+      <div class="num" style="font-size:22px;padding:9px 0 6px">Новое место</div>
+      <div class="cnt">1 отзыв · общего рейтинга пока нет</div>
+      <div class="go">Оставить отзыв →</div>
+    </a>
+  </div>
+
+  <a class="promo" href="#menu" data-tab="builder">
+    <b>−20%</b>
+    <span><strong>на завтрак-конструктор до 12:00</strong><br>Соберите свой завтрак — с 8:00 каждый день</span>
+  </a>
+</div>
+
+<main>
+  <section id="hits">
+    <div class="wrap">
+      <span class="eyebrow">Попробуйте</span>
+      <h2>Фирменные блюда</h2>
+      <p class="sub">Нажмите на блюдо, чтобы рассмотреть поближе. Фото подачи — из карточки заведения, состав — по меню.</p>
+      <div class="dishes reveal">
+        <button class="dish" data-lb="dishes" data-src="img/omelet.jpg" data-cap="Воздушный японский омлет с лососем и соусом голландез · 750 ₽"><div class="ph"><span class="hit">ХИТ</span><img loading="lazy" src="img/omelet.jpg" alt="Японский омлет"></div><div class="t"><div class="n">Воздушный японский омлет с лососем</div><div class="p">750 ₽</div></div></button>
+        <button class="dish" data-lb="dishes" data-src="img/profiteroles.jpg" data-cap="Воздушные профитроли со страчателлой и щучьей икрой · 1350 ₽"><div class="ph"><span class="hit">РЕКОМЕНДУЕМ</span><img loading="lazy" src="img/profiteroles.jpg" alt="Профитроли"></div><div class="t"><div class="n">Профитроли со страчателлой и щучьей икрой</div><div class="p">1350 ₽</div></div></button>
+        <button class="dish" data-lb="dishes" data-src="img/eclair-salmon.jpg" data-cap="Хрустящий эклер с тартаром из лосося · 850 ₽"><div class="ph"><img loading="lazy" src="img/eclair-salmon.jpg" alt="Эклер с лососем"></div><div class="t"><div class="n">Хрустящий эклер с тартаром из лосося</div><div class="p">850 ₽</div></div></button>
+        <button class="dish" data-lb="dishes" data-src="img/croissant.jpg" data-cap="Круассан с лососем домашнего посола, авокадо, рукколой и песто · 700 ₽"><div class="ph"><img loading="lazy" src="img/croissant.jpg" alt="Круассан с лососем"></div><div class="t"><div class="n">Круассан с лососем и авокадо</div><div class="p">700 ₽</div></div></button>
+        <button class="dish" data-lb="dishes" data-src="img/bowl.jpg" data-cap="Боул с лососем · 600 ₽"><div class="ph"><img loading="lazy" src="img/bowl.jpg" alt="Боул с лососем"></div><div class="t"><div class="n">Боул с лососем</div><div class="p">600 ₽</div></div></button>
+        <button class="dish" data-lb="dishes" data-src="img/eclair-beef.jpg" data-cap="Хрустящий эклер с тартаром из говядины · 750 ₽"><div class="ph"><img loading="lazy" src="img/eclair-beef.jpg" alt="Эклер с говядиной"></div><div class="t"><div class="n">Эклер с тартаром из говядины</div><div class="p">750 ₽</div></div></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" style="padding-top:0">
+    <div class="wrap">
+      <span class="eyebrow">Меню</span>
+      <h2>Что у нас есть</h2>
+      <p class="sub">Завтраки подаём весь день, с 8:00 до 22:00</p>
+      <div class="menu-box reveal">
+        <div class="tabs" role="tablist">
+          <button class="tab on" data-t="breakfast">🥞 Завтраки</button>
+          <button class="tab" data-t="builder">🍳 Конструктор</button>
+          <button class="tab" data-t="snacks">🥂 Закуски</button>
+          <button class="tab" data-t="salads">🥗 Салаты</button>
+          <button class="tab" data-t="hot">🍽 Горячее</button>
+          <button class="tab" data-t="soups">🍲 Супы</button>
+          <button class="tab" data-t="drinks">☕ Кофе и напитки</button>
+        </div>
+
+        <div class="panel on" id="p-breakfast"><div class="cols">
+          <div class="item"><div class="n">Блины по-русски с лососем<small>и нежной творожной массой</small></div><div class="p">850 ₽</div></div>
+          <div class="item"><div class="n">Блины с курицей и грибами<small>с пармезановым муссом</small></div><div class="p">650 ₽</div></div>
+          <div class="item"><div class="n">Домашние блины с мясной начинкой</div><div class="p">650 ₽</div></div>
+          <div class="item"><div class="n">Полдюжины блинов</div><div class="p">300 ₽</div></div>
+          <div class="item"><div class="n">Драник с лососем домашнего посола <span class="tagr">РЕКОМЕНДУЕМ</span><small>яйцо пашот, свежий шпинат, соус голландез</small></div><div class="p">720 ₽</div></div>
+          <div class="item"><div class="n">Драник с ростбифом из мраморной говядины<small>яйцо пашот, творожный мусс, соус тоннато</small></div><div class="p">720 ₽</div></div>
+          <div class="item"><div class="n">Драник из кабачка с котлетой из говядины<small>кинза, творожный мусс, сальса</small></div><div class="p">720 ₽</div></div>
+          <div class="item"><div class="n">Круассан с лососем домашнего посола<small>авокадо, руккола, соус песто</small></div><div class="p">700 ₽</div></div>
+          <div class="item"><div class="n">Скрэмбл с вялеными томатами<small>шпинат, грейпфрут, обжаренная чиабатта</small></div><div class="p">800 ₽</div></div>
+          <div class="item"><div class="n">Шакшука с бакинскими томатами<small>и сезонным перцем</small></div><div class="p">450 ₽</div></div>
+          <div class="item"><div class="n">Сырники со сметаной<small>и вишнёвым вареньем</small></div><div class="p">460 ₽</div></div>
+          <div class="item"><div class="n">Воздушный японский омлет <span class="tagr">ХИТ</span><small>с лососем домашнего посола и соусом голландез</small></div><div class="p">750 ₽</div></div>
+          <div class="item"><div class="n">Гречневая каша с белыми грибами<small>и томлёной говядиной</small></div><div class="p">690 ₽</div></div>
+          <div class="item"><div class="n">Перловая каша с белыми грибами<small>яйцо пашот, пармезан</small></div><div class="p">690 ₽</div></div>
+          <div class="item"><div class="n">Рисовая каша на молоке</div><div class="p">250 ₽</div></div>
+          <div class="item"><div class="n">Рисовая каша на кокосовом молоке</div><div class="p">400 ₽</div></div>
+          <div class="item"><div class="n">Дополнения: голубика<small>25 г</small></div><div class="p">120 ₽</div></div>
+          <div class="item"><div class="n">Дополнения: клубника<small>25 г</small></div><div class="p">150 ₽</div></div>
+          <div class="item"><div class="n">Дополнения: лепестки миндаля<small>15 г</small></div><div class="p">90 ₽</div></div>
+        </div></div>
+
+        <div class="panel" id="p-builder">
+          <p class="menu-h">Соберите завтрак сами</p>
+          <p style="color:var(--muted);font-size:14px">Основа + любимые добавки</p>
+          <div class="cols">
+            <div class="item"><div class="n">Основа: 2 яйца<small>глазунья, скрэмбл, вкрутую, пашот или всмятку</small></div><div class="p">250 ₽</div></div>
+            <div class="item"><div class="n">Креветки тигровые<small>50 г</small></div><div class="p">200 ₽</div></div>
+            <div class="item"><div class="n">Лосось с/с<small>50 г</small></div><div class="p">250 ₽</div></div>
+            <div class="item"><div class="n">Ростбиф<small>50 г</small></div><div class="p">250 ₽</div></div>
+            <div class="item"><div class="n">Курица су-вид<small>100 г</small></div><div class="p">150 ₽</div></div>
+            <div class="item"><div class="n">Говяжья грудинка<small>50 г</small></div><div class="p">300 ₽</div></div>
+            <div class="item"><div class="n">Сосиска молочная отварная<small>100 г</small></div><div class="p">200 ₽</div></div>
+            <div class="item"><div class="n">Страчателла<small>50 г</small></div><div class="p">290 ₽</div></div>
+            <div class="item"><div class="n">Авокадо<small>50 г</small></div><div class="p">220 ₽</div></div>
+            <div class="item"><div class="n">Томаты жареные<small>100 г</small></div><div class="p">150 ₽</div></div>
+            <div class="item"><div class="n">Шпинат / руккола свежие<small>50 г</small></div><div class="p">150 / 180 ₽</div></div>
+            <div class="item"><div class="n">Соус голландез<small>50 г</small></div><div class="p">250 ₽</div></div>
+            <div class="item"><div class="n">Тосты<small>2 шт</small></div><div class="p">50 ₽</div></div>
+            <div class="item"><div class="n">Масло сливочное<small>50 г</small></div><div class="p">90 ₽</div></div>
+            <div class="item"><div class="n">Грейпфрут<small>50 г</small></div><div class="p">120 ₽</div></div>
+            <div class="item"><div class="n">Трюфель<small>5 г</small></div><div class="p">1000 ₽</div></div>
+          </div>
+        </div>
+
+        <div class="panel" id="p-snacks"><div class="cols">
+          <div class="item"><div class="n">Воздушные профитроли <span class="tagr">РЕКОМЕНДУЕМ</span><small>со страчателлой и щучьей икрой</small></div><div class="p">1350 ₽</div></div>
+          <div class="item"><div class="n">Жареные тосты<small>со сливочным маслом и красной икрой</small></div><div class="p">1100 ₽</div></div>
+          <div class="item"><div class="n">Ростбиф с соусом тоннато и кимчи</div><div class="p">700 ₽</div></div>
+          <div class="item"><div class="n">Севиче из дорадо</div><div class="p">1200 ₽</div></div>
+          <div class="item"><div class="n">Французский паштет из утиной печени</div><div class="p">540 ₽</div></div>
+          <div class="item"><div class="n">Хлебная корзина</div><div class="p">300 ₽</div></div>
+          <div class="item"><div class="n">Хрустящий эклер с тартаром из говядины</div><div class="p">750 ₽</div></div>
+          <div class="item"><div class="n">Хрустящий эклер с тартаром из лосося</div><div class="p">850 ₽</div></div>
+        </div></div>
+
+        <div class="panel" id="p-salads"><div class="cols">
+          <div class="item"><div class="n">Боул с креветками</div><div class="p">600 ₽</div></div>
+          <div class="item"><div class="n">Боул с лососем</div><div class="p">600 ₽</div></div>
+          <div class="item"><div class="n">Салат с клубникой и страчателлой</div><div class="p">850 ₽</div></div>
+          <div class="item"><div class="n">Салат с лососем домашнего посола и манго</div><div class="p">850 ₽</div></div>
+          <div class="item"><div class="n">Цезарь с креветками</div><div class="p">580 ₽</div></div>
+          <div class="item"><div class="n">Цезарь с курицей</div><div class="p">580 ₽</div></div>
+        </div></div>
+
+        <div class="panel" id="p-hot"><div class="cols">
+          <div class="item"><div class="n">Котлета из креветок<small>с рукколой, грейпфрутом и соусом спайси</small></div><div class="p">950 ₽</div></div>
+          <div class="item"><div class="n">Медальоны из говяжьей вырезки<small>с азиатским соусом</small></div><div class="p">900 ₽</div></div>
+          <div class="item"><div class="n">Паста «Пеппер»<small>с говядиной и креветками</small></div><div class="p">800 ₽</div></div>
+          <div class="item"><div class="n">Паста птитим<small>со шпинатом и креветками</small></div><div class="p">900 ₽</div></div>
+          <div class="item"><div class="n">Филе лосося на пару <span class="tagr">РЕКОМЕНДУЕМ</span><small>с кабачками и вялеными томатами</small></div><div class="p">1300 ₽</div></div>
+        </div></div>
+
+        <div class="panel" id="p-soups"><div class="cols">
+          <div class="item"><div class="n">Минестроне</div><div class="p">590 ₽</div></div>
+          <div class="item"><div class="n">Нежный грибной крем-суп<small>с чиабаттой</small></div><div class="p">590 ₽</div></div>
+          <div class="item"><div class="n">Суп со шпинатом и лососем</div><div class="p">950 ₽</div></div>
+        </div></div>
+
+        <div class="panel" id="p-drinks">
+          <div class="cols">
+            <p class="menu-h">Кофе</p>
+            <div class="item"><div class="n">Эспрессо<small>30 мл</small></div><div class="p">170 ₽</div></div>
+            <div class="item"><div class="n">Двойной эспрессо<small>60 мл</small></div><div class="p">220 ₽</div></div>
+            <div class="item"><div class="n">Американо<small>200 мл</small></div><div class="p">170 ₽</div></div>
+            <div class="item"><div class="n">Капучино<small>200 мл</small></div><div class="p">300 ₽</div></div>
+            <div class="item"><div class="n">Капучино двойной<small>350 мл</small></div><div class="p">390 ₽</div></div>
+            <div class="item"><div class="n">Латте<small>350 мл</small></div><div class="p">320 ₽</div></div>
+            <div class="item"><div class="n">Флэт уайт<small>200 мл</small></div><div class="p">330 ₽</div></div>
+            <div class="item"><div class="n">Раф ванильный<small>350 мл</small></div><div class="p">350 ₽</div></div>
+            <div class="item"><div class="n">Фильтр дня<small>200 / 350 мл</small></div><div class="p">170 / 270 ₽</div></div>
+            <div class="item"><div class="n">Горячий шоколад<small>200 мл</small></div><div class="p">350 ₽</div></div>
+            <p class="menu-h">Авторские рафы · 350 мл</p>
+            <div class="item"><div class="n">«Вишнёвая панакота» <span class="tagr">ХИТ</span></div><div class="p">360 ₽</div></div>
+            <div class="item"><div class="n">«Тыквенный кранч с арахисом»</div><div class="p">360 ₽</div></div>
+            <div class="item"><div class="n">«Миндальный круассан с попкорном»</div><div class="p">360 ₽</div></div>
+            <div class="item"><div class="n">«Банановое мороженое с солёной карамелью»</div><div class="p">360 ₽</div></div>
+            <div class="item"><div class="n">«Фисташковый рулет с малиной»</div><div class="p">360 ₽</div></div>
+            <p class="menu-h">Холодный кофе · 340 мл</p>
+            <div class="item"><div class="n">Бамбл апельсин-карамель</div><div class="p">420 ₽</div></div>
+            <div class="item"><div class="n">Бамбл вишня-ваниль</div><div class="p">390 ₽</div></div>
+            <div class="item"><div class="n">Эспрессо-тоник классический / грейпфрут</div><div class="p">330 ₽</div></div>
+            <p class="menu-h">Матча латте · 300 мл</p>
+            <div class="item"><div class="n">Классическая, кокос, халва, малина, таёжная, питахайя</div><div class="p">330 ₽</div></div>
+            <div class="item"><div class="n">Вино дня<small>150 мл</small></div><div class="p">550 ₽</div></div>
+          </div>
+        </div>
+
+        <div class="menu-foot">
+          <span class="note">Цены по меню из 2ГИС, могут меняться — уточняйте у официанта. Предупредите об аллергии.</span>
+          <button class="pill" data-lb="menu" data-src="img/menu-breakfast.jpg" data-cap="Меню завтраков">📄 Меню целиком</button>
+          <button hidden data-lb="menu" data-src="img/menu-main.jpg" data-cap="Основное меню и напитки"></button>
+          <button hidden data-lb="menu" data-src="img/menu-bar.jpg" data-cap="Чай, лимонады и бар"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="interior" style="padding-top:0">
+    <div class="wrap">
+      <span class="eyebrow">Интерьер</span>
+      <h2>Загляните внутрь</h2>
+      <p class="sub">Русские мотивы, мягкие кресла и тёплый свет. До 40 мест.</p>
+      <div class="gallery reveal">
+        <button class="big" data-lb="interior" data-src="img/hall-1.jpg" data-cap="Основной зал"><img loading="lazy" src="img/hall-1.jpg" alt="Основной зал"></button>
+        <button data-lb="interior" data-src="img/armchairs.jpg" data-cap="Лаунж-зона с креслами"><img loading="lazy" src="img/armchairs.jpg" alt="Кресла"></button>
+        <button data-lb="interior" data-src="img/hall-3.jpg" data-cap="Столики у панно"><img loading="lazy" src="img/hall-3.jpg" alt="Столики у панно"></button>
+        <button class="big" data-lb="interior" data-src="img/bar.jpg" data-cap="Барная стойка"><img loading="lazy" src="img/bar.jpg" alt="Бар"></button>
+        <button data-lb="interior" data-src="img/lounge.jpg" data-cap="Уютный уголок"><img loading="lazy" src="img/lounge.jpg" alt="Уголок с креслами"></button>
+        <button data-lb="interior" data-src="img/cup.jpg" data-cap="Кофе в «Тепло»"><img loading="lazy" src="img/cup.jpg" alt="Чашка кофе"><span class="more">+ все фото</span></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" style="padding-top:0">
+    <div class="wrap">
+      <span class="eyebrow">Отзывы гостей</span>
+      <h2>Говорят гости</h2>
+      <p class="sub">Из отзывов на 2ГИС и Яндекс Картах</p>
+      <div class="reviews reveal">
+        <div class="rv photo">
+          <button data-lb="review" data-src="img/breakfast-table.jpg" data-cap="Японский омлет и сырники — фото гостя"><img loading="lazy" src="img/breakfast-table.jpg" alt="Фото гостя: японский омлет и сырники"></button>
+          <div class="in">
+            <div class="who"><span class="av">Я</span><div><b>Яна С.</b><small>2ГИС и Яндекс · подтверждённый визит</small></div></div>
+            <p>Японский воздушный омлет — пушка-бомба! Блинчики и сырники обалденные, а раф «Вишнёвая панакота» попал прямо в сердечко. Придём ещё обязательно!</p>
+          </div>
+        </div>
+        <div class="rv"><div class="who"><span class="av">А</span><div><b>Азамат Г.</b><small>2ГИС · 2 посещения</small></div></div><p>Очень понравился интерьер, всё красиво и стильно оформлено. Сделали вкусный кофе. Обязательно приду ещё!</p></div>
+        <div class="rv"><div class="who"><span class="av">Р</span><div><b>Римма К.</b><small>2ГИС</small></div></div><p>Уютное место, персонал с трепетом и заботой принимает гостей. Всё вкусно и очень сытно, рекомендую ❤️</p></div>
+        <div class="rv"><div class="who"><span class="av">А</span><div><b>Анжелика Л.</b><small>2ГИС</small></div></div><p>Отличный интерьер, потрясающее меню, самый вкусный латте. Обязательно придём ещё)</p></div>
+        <div class="rv"><div class="who"><span class="av">А</span><div><b>Алексей М.</b><small>2ГИС</small></div></div><p>Всё очень понравилось с самого начала: дружелюбные официанты, классные повара, знающие толк в своей работе.</p></div>
+        <div class="rv"><div class="who"><span class="av">А</span><div><b>Александр Т.</b><small>2ГИС</small></div></div><p>Самый вкусный чай и лучшее гостеприимство. Однозначно стоит посетить.</p></div>
+      </div>
+      <div class="rv-cta">
+        <a class="btn btn-red" href="https://2gis.ru/ufa/firm/70000001118655819/tab/reviews" target="_blank" rel="noopener">Все 16 оценок в 2ГИС</a>
+        <a class="btn btn-light" style="border:1.5px solid var(--line)" href="https://yandex.ru/maps/org/teplo/148598548758/reviews/" target="_blank" rel="noopener">Отзыв на Яндекс Картах</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <span class="eyebrow">Удобно</span>
+      <h2>Приходите как удобно</h2>
+      <div class="chips" style="margin-top:18px">
+        <span class="chip">📅 Бронь столиков</span>
+        <span class="chip">🥡 Навынос</span>
+        <span class="chip">🥂 Завтрак с игристым</span>
+        <span class="chip">🍷 Винная карта</span>
+        <span class="chip">🌇 Панорамный вид</span>
+        <span class="chip">☀️ Столики на улице</span>
+        <span class="chip">🐕 Можно с собакой</span>
+        <span class="chip">📶 Бесплатный Wi-Fi</span>
+        <span class="chip">🅿️ 1 бесплатное парковочное место</span>
+        <span class="chip">🚌 Остановка «Столетия» — 80 м</span>
+        <span class="chip">💳 Карта, наличные, QR</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" style="padding-top:0">
+    <div class="wrap">
+      <span class="eyebrow">Контакты</span>
+      <h2>Как нас найти</h2>
+      <div class="contacts" style="margin-top:18px">
+        <div class="card">
+          <dl>
+            <dt>Адрес</dt><dd>Уфа, ул. Карла Маркса, 20<br><span style="font-weight:400;color:var(--muted);font-size:15px">Александровский пассаж, Ленинский район</span></dd>
+            <dt>Часы работы</dt><dd>Ежедневно 08:00–22:00</dd>
+            <dt>Телефон</dt><dd><a href="tel:+79961039095" style="text-decoration:none;color:var(--red)">+7 996 103-90-95</a></dd>
+          </dl>
+          <div class="btns">
+            <a class="btn btn-red" href="https://yandex.ru/maps/org/teplo/148598548758/?rtext=~54.729321,55.943188" target="_blank" rel="noopener">Яндекс Карты</a>
+            <a class="btn btn-light" style="border:1.5px solid var(--line)" href="https://2gis.ru/ufa/firm/70000001118655819" target="_blank" rel="noopener">2ГИС</a>
+          </div>
+        </div>
+        <div class="map">
+          <iframe loading="lazy" title="Карта: Тепло, ул. Карла Маркса, 20"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=55.9372%2C54.7268%2C55.9492%2C54.7318&amp;layer=mapnik&amp;marker=54.729321%2C55.943188"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="final">
+      <img loading="lazy" src="img/armchairs.jpg" alt="">
+      <span class="eyebrow" style="color:var(--gold)">Ждём вас</span>
+      <h2>Забронируйте столик</h2>
+      <p>Позвоните — подскажем свободное время и любимые блюда гостей.</p>
+      <a class="btn btn-light" href="tel:+79961039095">📞 +7 996 103-90-95</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  Демо-концепт сайта по открытым данным 2ГИС и Яндекс Карт. Фото — из карточки заведения в 2ГИС.<br>
+  Не является официальным сайтом кофейни «Тепло». Удалим по первой просьбе.
+</footer>
+
+<div class="fab">
+  <a class="btn btn-red" href="tel:+79961039095">📞 Позвонить</a>
+  <a class="btn sq" href="#menu" aria-label="Меню">📖</a>
+  <a class="btn sq" href="https://yandex.ru/maps/org/teplo/148598548758/?rtext=~54.729321,55.943188" target="_blank" rel="noopener" aria-label="Маршрут">📍</a>
+</div>
+
+<div class="lb" id="lb" aria-hidden="true">
+  <button class="x" data-a="close" aria-label="Закрыть">✕</button>
+  <button class="nav prev" data-a="prev" aria-label="Назад">‹</button>
+  <img id="lb-img" alt="">
+  <div class="cap" id="lb-cap"></div>
+  <div class="cnt" id="lb-cnt"></div>
+  <button class="nav next" data-a="next" aria-label="Вперёд">›</button>
+</div>
+
+<div class="sheet" id="sheet" role="dialog" aria-label="Позвонить">
+  <div class="box">
+    <button class="x2" data-close aria-label="Закрыть">✕</button>
+    <h3>Позвонить в «Тепло»</h3>
+    <a class="big-num" href="tel:+79961039095">+7 996 103-90-95</a>
+    <p class="hint">Ежедневно 08:00–22:00 · бронь столиков</p>
+    <a class="btn btn-red" href="tel:+79961039095" data-direct>📞 Позвонить</a>
+    <button class="btn btn-light" style="border:1.5px solid var(--line)" id="copy">📋 Скопировать номер</button>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+  // Открыто/закрыто по времени Уфы (UTC+5)
+  (function(){
+    var n=new Date(), u=new Date(n.getTime()+n.getTimezoneOffset()*6e4+5*36e5), m=u.getHours()*60+u.getMinutes(), open=m>=480&&m<1320;
+    document.getElementById('status').textContent = open ? 'Открыто до 22:00' : 'Закрыто · откроемся в 08:00';
+    if(!open) document.getElementById('dot').classList.add('closed');
+  })();
+
+  // Вкладки меню
+  function showTab(t){
+    document.querySelectorAll('.tab').forEach(function(b){b.classList.toggle('on', b.dataset.t===t)});
+    document.querySelectorAll('.panel').forEach(function(p){p.classList.toggle('on', p.id==='p-'+t)});
+  }
+  document.querySelectorAll('.tab').forEach(function(b){b.onclick=function(){showTab(b.dataset.t); b.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'})}});
+  document.querySelectorAll('[data-tab]').forEach(function(a){a.addEventListener('click',function(){showTab(a.dataset.tab)})});
+
+  // Галерея-лайтбокс
+  var lb=document.getElementById('lb'), im=document.getElementById('lb-img'), cap=document.getElementById('lb-cap'), cnt=document.getElementById('lb-cnt'), list=[], i=0;
+  function groupItems(g){
+    // «+ все фото» в интерьере листает и блюда
+    var q=function(s){return Array.prototype.slice.call(document.querySelectorAll('[data-lb="'+s+'"]'))};
+    return g==='interior' ? q('interior').concat(q('dishes')) : q(g);
+  }
+  function show(){var el=list[i]; delete im.dataset.fb; im.src=(window.USE_CDN && cdnFor(el.dataset.src)) || el.dataset.src; cap.textContent=el.dataset.cap||''; cnt.textContent=(i+1)+' из '+list.length;}
+  function open(el){list=groupItems(el.dataset.lb); i=list.indexOf(el); show(); lb.classList.add('on'); document.body.style.overflow='hidden';}
+  function close(){lb.classList.remove('on'); document.body.style.overflow='';}
+  function step(d){i=(i+d+list.length)%list.length; show();}
+  document.querySelectorAll('[data-lb]').forEach(function(el){el.addEventListener('click',function(){open(el)})});
+  lb.addEventListener('click',function(e){var a=e.target.dataset.a; if(a==='close'||e.target===lb)close(); else if(a==='prev')step(-1); else if(a==='next')step(1);});
+  document.addEventListener('keydown',function(e){if(!lb.classList.contains('on'))return; if(e.key==='Escape')close(); if(e.key==='ArrowLeft')step(-1); if(e.key==='ArrowRight')step(1);});
+  var x0=null; im.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+  im.addEventListener('touchend',function(e){if(x0===null)return; var dx=e.changedTouches[0].clientX-x0; if(Math.abs(dx)>40)step(dx<0?1:-1); x0=null;});
+
+  // Якорные ссылки: прокручиваем сами (работает и в превью, и из файла)
+  function goTo(id){
+    var t = id==='top' ? document.body : document.getElementById(id); if(!t) return;
+    var y = id==='top' ? 0 : t.getBoundingClientRect().top + window.pageYOffset - 64;
+    window.scrollTo({top:y, behavior:'smooth'});
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){ e.preventDefault(); goTo(a.getAttribute('href').slice(1)); });
+  });
+
+  // Звонок: на телефоне — сразу набор, на компьютере — окно с номером
+  var sheet=document.getElementById('sheet'), toast=document.getElementById('toast');
+  var isPhone = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+  function say(t){toast.textContent=t; toast.classList.add('on'); clearTimeout(say.t); say.t=setTimeout(function(){toast.classList.remove('on')},2200);}
+  document.querySelectorAll('a[href^="tel:"]').forEach(function(a){
+    if(a.hasAttribute('data-direct') || a.closest('.sheet')) return;
+    a.addEventListener('click', function(e){ if(isPhone) return; e.preventDefault(); sheet.classList.add('on'); });
+  });
+  sheet.addEventListener('click', function(e){ if(e.target===sheet || e.target.hasAttribute('data-close')) sheet.classList.remove('on'); });
+  document.getElementById('copy').addEventListener('click', function(){
+    var n='+7 996 103-90-95';
+    function fallback(){var t=document.createElement('textarea');t.value=n;document.body.appendChild(t);t.select();try{document.execCommand('copy')}catch(_){}t.remove();say('Номер скопирован: '+n);}
+    if(navigator.clipboard && window.isSecureContext){navigator.clipboard.writeText(n).then(function(){say('Номер скопирован: '+n)},fallback)} else fallback();
+  });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') sheet.classList.remove('on'); });
+
+  // Подсветка текущего раздела в верхнем меню
+  var links=[].slice.call(document.querySelectorAll('nav a.l'));
+  var secs=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1))});
+  function spy(){
+    var y=window.pageYOffset+120, cur=-1;
+    secs.forEach(function(s,k){ if(s && s.offsetTop<=y) cur=k; });
+    links.forEach(function(a,k){ a.classList.toggle('cur', k===cur); });
+    if(cur>=0){ var bar=links[cur].parentNode, l=links[cur]; if(l.offsetLeft<bar.scrollLeft || l.offsetLeft+l.offsetWidth>bar.scrollLeft+bar.clientWidth) bar.scrollTo({left:l.offsetLeft-60, behavior:'smooth'}); }
+  }
+  window.addEventListener('scroll', function(){ clearTimeout(spy.t); spy.t=setTimeout(spy,80); }, {passive:true});
+
+  // Плавное появление блоков
+  var io='IntersectionObserver' in window ? new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.1}) : null;
+  document.querySelectorAll('.reveal').forEach(function(el){io?io.observe(el):el.classList.add('in')});
+</script>
+</body>
+</html>
